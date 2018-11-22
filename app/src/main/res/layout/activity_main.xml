@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget33"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="88dp"
+        android:text="Ramalan si Haikal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="23dp"
+        android:text="Nama"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText2"
+        android:text="Bulan"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText3"
+        android:text="Ramal" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignLeft="@+id/editText2"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView1"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignTop="@+id/textView3"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="14dp"
+        android:textSize="18sp" />
+
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:text="Tanggal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
+
